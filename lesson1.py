@@ -20,3 +20,14 @@ def strcounter(s):
         print(sym, '-', count)
 
 strcounter("aaabbbcccccdd")
+
+
+def palindrom(s):
+    reversed_str = s[::-1]
+    if reversed_str == s:
+        print(True)
+    else:
+        print(False)
+
+palindrom('лепсспел')
+palindrom('helloworld')
